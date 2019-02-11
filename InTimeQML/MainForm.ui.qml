@@ -10,10 +10,20 @@ Rectangle {
     MouseArea {
         id: mouseArea
         anchors.fill: parent
+
+        Grid {
+            id: grid
+            x: 26
+            y: 49
+            width: 311
+            height: 288
+        }
     }
 
     TextEdit {
         id: textEdit
+        width: 290
+        height: 13
         text: qsTr("Enter some text...")
         verticalAlignment: Text.AlignVCenter
         anchors.top: parent.top
@@ -23,6 +33,7 @@ Rectangle {
             anchors.fill: parent
             anchors.margins: -10
             color: "transparent"
+            anchors.rightMargin: -12
             border.width: 1
         }
     }
