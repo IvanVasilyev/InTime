@@ -8,7 +8,7 @@ ApplicationWindow {
     id: root
     width: 1024
     height: 768
-    color: "#0f398a"
+    color: "#3c5a99"
     title: "InTime"
     opacity: 1
     visible: true
